@@ -1,0 +1,468 @@
+*{
+    width: 1600px;
+    margin: 0;
+}
+
+body{
+    font-family: 'Merriweather', serif;
+}
+
+/* banner section starts from here */
+
+.banner{
+    height: 600px;
+    margin: 50px 140px 120px;
+    background-image: url(/image//Banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 16px;
+    background-color: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+}
+.banner h3{
+    color: #FFF;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+.banner h2{
+    color: #FFF;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 95px;
+
+    /*discount section stars from here*/
+}
+.discount{
+    text-align: center;
+}
+.discount img{
+    width: 802.9px;
+    height: 500px;
+    flex-shrink: 0;
+}
+.discount h3{
+    color: #F00;
+    font-family: Inter;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.discount h5{
+    margin-top: 48px;
+    margin-bottom: 16px;
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.discount h4{
+    margin-bottom: 48px;
+    color: #070211;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+/* mid-night section starts from here */
+
+.mid-night{
+    margin: 120px 140px;
+    background-image: url(/image//party.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    border-radius: 16px;
+
+}
+.mid-text{
+    color: #fff;
+    text-align: left;
+    margin-left: 126px;
+    width: 60%;
+}
+
+.mid-text h3{
+    font-family: Merriweather;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+}
+.mid-text p{
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 24px;
+    margin-bottom: 48px;
+}
+.mid-text h5{
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 32px;
+}
+.mid-img{
+    width: 40%;
+}
+.mid-img img{
+width: 319.83px;
+height: 464.662px;
+}
+
+/*ptd section starts from here*/
+.ptd{
+    margin: 0px 140px;
+    padding: 100px 0px;
+    text-align: center;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+}
+.ptd-text{
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+}
+.ptd-span{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+}
+.ptd-btn {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    width: auto;
+    padding: 16px 32px;
+    margin-top: 48px;
+    border: none;
+    border-radius: 8px;
+    background: #F00;
+}
+
+/*comming-soon section starts from here*/
+.comming-soon{
+    margin: 120px 140px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.comming-offer{
+    width: 33.33%;
+    margin-right: 70px;
+}
+.comming-offer h4{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: auto;
+}
+.comming-offer h3{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: 16px;
+    margin-bottom: 22px;
+    width: auto;
+}
+.comming-offer p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    width: auto;
+}
+.comming-img img{
+    width: 364.844px;
+    height: 364.844px;
+}
+.comming-img{
+    /* border-radius: 463px;
+    border: 15px solid #F00;
+    width: 463px;
+    height: 463px;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center; */
+
+    width: 364.844px;
+    height: 364.844px;
+    border-radius: 100%;
+    border: 15px solid #F00;
+    padding: 35px;
+}
+.comming-text{
+    width: 33.33%;
+    margin-left: 118px;
+}
+.comming-text h3{
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: auto;
+}
+.comming-text p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    width: auto;
+}
+.comming-text img{
+    width: 140px;
+    height: 140px;
+}
+
+/*holiday section starts from here*/
+
+/* .holiday h4{
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.holiday h2{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+.holiday-span{
+    color: #F00;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+.holiday p {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+}
+.holiday img{
+    width: 1320px;
+    height: 229px;
+    border-radius: 16px 0px 16px 16px;
+    background: #F00;
+}
+.holiday img{
+    width: 206.841px;
+    height: 206.841px;
+    fill: #F00;
+}
+.holiday img */
+
+.portfolio{
+    margin: 120px 140px;
+}
+.portfolio-text{
+
+}
+.portfolio-text h4{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.portfolio-text h2{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: 16px;
+    margin-bottom: 22px;
+}
+.portfolio-text p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+.portfolio-img{
+
+}
+.portolio-row1{
+    display: flex;
+    margin-top: 48px;
+    margin-bottom: 24px;
+}
+.portolio-row1 img{
+    margin: 0px 12px;
+}
+.portolio-row2{
+    display: flex;
+}
+.portolio-row2 img{
+    margin: 0px 12px;
+}
+
+.subscribe{
+    margin: 0px 140px 120px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    text-align: center;
+}
+.subscribe h2{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: 40px;
+    margin-bottom: 22px;
+}
+.subscribe p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+.subscribe img{
+    margin-top: 80px;
+    width: 150px;
+    height: 150px;
+}
+.subscribe-btn {
+    display: flex;
+    width: 648px;
+    height: 72px;
+    margin: auto;
+    padding-bottom: 80px;
+    margin-top: 48px;
+}
+.subscribe-btn button{
+    width: 210px;
+    display: inline;
+    padding: 24px 56px;
+    color: #FFF;
+    border: none;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+}
+.subscribe-btn input{
+    width: 438px;
+    padding: 24px 56px;
+    color: #000000;
+    border-radius: 50px 0px 0px 50px;
+    background: rgb(255, 255, 255);
+}
+
+.footer{
+    background: #070211;
+}
+.footer-top{
+
+}
+.ftop-left{
+
+}
+.ftop-left p{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+}
+.ftop-right{
+
+}
+.phn-number{
+
+}
+.phn-number img{
+    width: 24px;
+    height: 24px;
+}
+.phn-number p{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+}
+.web-address{
+
+}
+.web-address img{
+    width: 24px;
+    height: 24px;
+}
+.web-address p{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+}
